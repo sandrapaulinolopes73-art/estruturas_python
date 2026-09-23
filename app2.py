@@ -1,8 +1,11 @@
-Name =input("Qual seu nome?")
+name =input("Qual seu nome?")
 age = input ("Qual sua idade?")
-older = age + 10
-print (type(Name))
+
+print (type(name))
 print (type(age))
 age =int(age)
 
-#print(f"{name})terá {older} daqui a 10 anos.")
+older = age + 10
+
+
+print(f"{name})terá {older} daqui a 10 anos.")
